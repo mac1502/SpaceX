@@ -1,0 +1,109 @@
+* {
+    max-width: 1440px;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./font/Roboto-Regular.ttf);
+}
+body {
+    background-color: #010001;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    margin: 50px 104.5px 50px 104.5px;
+}
+.main-title h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 75px;
+    color: white;
+    padding-left: 150px;
+}
+.main-title p {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: center;
+    color: white;
+    padding-left: 150px;
+}
+h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33.6px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 550px;
+}
+.falcon-info {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.falcon-info-name p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.34px;
+    color: white;
+}
+.falcon-info-value p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.34px;
+    color: white;
+    margin-left: 100px;
+}
+.falcon-info-value p span {
+    color: grey;
+}
+.falcon-info-description p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28.75px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.falcon-info-description h2 {
+    margin-top: 150px;
+}
+.falcon-info-img {
+    position: absolute;
+    top: 1307px;
+    left: 691px;
+}
+.falcon-contacts {
+    text-align: center;
+    margin-top: 510px;
+    margin-bottom: 150px;
+}
+.falcon-contacts p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #808080;
+    margin-top: 20px;
+}
+.falcon-contacts img {
+    margin-top: 40px;
+}
+.falcon-contacts a {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: white;
+    padding: 15px 70px;
+}
